@@ -13,7 +13,7 @@ function Sushi({ oneSushi }) {
   return (
     <div className="sushi">
       <div className="plate" onClick={handleClick}>
-        {isSushiGone ? null : (
+        {false ? null : (
           <img
             src={img_url}
             alt={name}

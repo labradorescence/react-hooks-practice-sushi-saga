@@ -6,7 +6,7 @@ import Table from "./Table";
 export default function SushiPage( {api}) {
 
     const [ sushi, setSushi ] = useState([])
-    const [ isSushiGone, setIsSushiGone ] = useState(false)
+
 
     useEffect(() => {
         fetch(api)
